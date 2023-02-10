@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang ="pt-en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bruno's Developer Portifolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header-container">
+                <h1 class="header-h1 header-long"> Bruno's Portifolio</h1>
+                <h1 class="header-h1 header-short">BB</h1>
+                <button class="night" id="night" aria-label="enable-dark-bode">
+                    <img src="./image/sauron-lotr.gif" class="sauron" id="#sauron"/>
+                </button>
+
+                <button class="hamburger" id="toggle-mobile" aria-expanded="false" aria-controls="primary-navigation">                    
+                    <svg stroke="var(--button-color)" class="hamburger" viewBox="0 0 100 100" width="250">
+                        <line class="line top" 
+                            x1="90" x2="10" y1="30" y2="30"
+                            stroke-width="8"
+                            stroke-linecap="round"
+                            stroke-dasharray="80"
+                            stroke-dashoffset="0">
+                        </line>
+                        <line class="line middle" 
+                            x1="10" x2="90" y1="50" y2="50"
+                            stroke-width="8"
+                            stroke-linecap="round"
+                            stroke-dasharray="80"
+                            stroke-dashoffset="0">
+                        </line>  
+                        <line class="line bottom" 
+                            x1="90" x2="10" y1="70" y2="70"
+                            stroke-width="8"
+                            stroke-linecap="round"
+                            stroke-dasharray="80"
+                            stroke-dashoffset="0">
+                        </line> 
+                    </svg>
+                </button>
+
+                <nav>
+                    <ul id="nav-bar"
+                    data-visible="false">
+                        <a href="#about"><li>About</li></a>
+                        <a href="#projects"><li>Projects</li></a>
+                        <a href="#skills"><li>Skills</li></a> 
+                        <a href="#contact"><li>Contact me</li></a>   
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="about" class="about">
+                <div class="about-container">
+                    
+                    <p class="hello">Hello, I am</p>
+                    <div class="name">
+                        <h2 class="nbruno">Bruno</h2>
+                        <h2 class="nbarato">Barato</h2>
+                    </div>
+                    <p class="career"> Front-end Developer</p>
+                    <p class="welcome"> Welcome to my Portifolio!</p>
+                    <img alt="Bruno's Picture" src="./image/Brunopb2.png" class="profilepb profilepic"/>
+                    <img alt="Bruno's Picture" src="./image/brunocolor2.png" class="profilecolor profilepic"/>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="rect-left mask"></div>
+                <div class="rect-right mask"></div>
+                <div class="triangle-left mask"></div>
+                <div class="triangle-right mask"></div>
+                <img src="./image/barad-dur.png" alt="barad-dur" class="barad-dur" />
+            </section>
+
+            <section id="projects" class="projects">
+                <h1>Projects</h1>
+                <div class="carousel-container">
+                    <input type="radio" name="position" class="project-select" checked />
+                    <input type="radio" name="position" class="project-select" />
+                    <input type="radio" name="position" class="project-select" />
+                    <input type="radio" name="position" class="project-select" />
+                    <div id="carousel" class="carousel-item">
+                        <div class="item">
+                            <a href="https://baratex.github.io/freecodecamp_build-a-survey-form/" target="_blank">
+                                <img alt="survey - pokemon" src="./image/pokemoncolor.png" class="color"/> 
+                                <p class="title">Survey Form - freeCodeCamp project 01</p>
+                                <p class="description">This project exercise has the objective to build a survey form to collect data from users. It gathers the prefered activities as a Pokemon Trainer. </p>
+                            </a>
+                        </div>
+                        <div class="item gandalf">
+                            <a href="https://baratex.github.io/freecodecamp_tribute-page/" target="_blank">
+                                <img alt="Tribute page to Gandalf" src="./image/gandalfcolor.png" class="color"/> 
+                                <p class="title">Tribute Page - freeCodeCamp project 02</p>
+                                <p class="description">For this project, is required to build a tribute page of any character, fictional or real. Gandalf is here representing the entire army that defeated Sauron </p>
+                            </a>
+                        </div>
+                        <div class="item catan">
+                            <a href="https://baratex.github.io/freecodecamp_technical-document-page/" target="_blank">
+                                <img alt="Catan board game rules" src="./image/catancolor.png" class="color catan"/> 
+                                <img alt="catan game picture" src="./image/catan-board.jpg" class="fade-img" />
+                                <p class="title">Technical Documentation Page - freeCodeCamp project 03</p>
+                                <p class="description">In this project was build a rullebook of the boardgame Catan. </p>
+                            </a>
+                        </div>
+                        <div class="item recorder">
+                            <a href="https://baratex.github.io/freecodecamp_product-landing-page/" target="_blank">
+                                <img alt="recorder vendor landing page" src="./image/recordercolor.png" class="color recorder"/>
+                                <p class="title">Product Landing Page - freeCodeCamp project 04</p>
+                                <p class="description">Build a Recorder landing page to market the product. </p>
+                            </a>
+                        </div>
+                    </div>
+                <div>
+
+            </section>
+            <section id="skills" class="skills">
+                    <h1> skills</h1>
+                    <div class="skills-container">
+                        <div class="skill-html">
+                            <svg fill="#00000" width="800px" height="800px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path d="M15.54 0.5l-1.28 14.379-5.78 1.621-5.74-1.621-1.28-14.379h14.080zM12.92 3.439h-8.84l0.47 5.34h6.121l-0.222 2.279-1.969 0.532-1.96-0.531-0.13-1.399h-1.749l0.22 2.779 3.62 1h0.039v-0.010l3.591-0.99 0.5-5.44h-6.441l-0.15-1.81h6.74l0.16-1.75z" />
+                            </svg>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skill-css">
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <title>css3</title>
+                                <path d="M24.235 6.519l-16.47-0.004 0.266 3.277 12.653 0.002-0.319 3.394h-8.298l0.3 3.215h7.725l-0.457 4.403-3.636 1.005-3.694-1.012-0.235-2.637h-3.262l0.362 4.817 6.829 2.128 6.714-1.912 1.521-16.675zM2.879 1.004h26.242l-2.387 26.946-10.763 3.045-10.703-3.047z" />
+                            </svg>
+                            <p>CSS3</p>  
+                        </div>
+                        <div class="skill-js">
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H24V24H0V0ZM18.3467 20.1196C17.2343 20.1196 16.6053 19.5394 16.1219 18.7501L14.2891 19.8149C14.9512 21.123 16.3044 22.1211 18.3989 22.1211C20.5409 22.1211 22.136 21.0088 22.136 18.9783C22.136 17.0949 21.0541 16.2571 19.1379 15.4354L18.5741 15.1939C17.6065 14.7749 17.1874 14.501 17.1874 13.8244C17.1874 13.277 17.6061 12.8579 18.2667 12.8579C18.9143 12.8579 19.3314 13.131 19.7181 13.8244L21.4743 12.6968C20.7314 11.3901 19.7006 10.891 18.2667 10.891C16.2526 10.891 14.9638 12.1787 14.9638 13.8701C14.9638 15.7063 16.0449 16.5749 17.6724 17.2682L18.2362 17.5101C19.2648 17.96 19.8781 18.2339 19.8781 19.0072C19.8781 19.6526 19.2811 20.1196 18.3467 20.1196ZM9.60647 20.1055C8.83161 20.1055 8.50933 19.5741 8.15504 18.9455L6.31923 20.057C6.85104 21.1825 7.89676 22.117 9.70247 22.117C11.7009 22.117 13.0701 21.0541 13.0701 18.7189V11.0198H10.8149V18.6884C10.8149 19.8156 10.3474 20.1055 9.60647 20.1055Z" />
+                                </svg>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill-scss">
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 0c8.839 0 16 7.161 16 16s-7.161 16-16 16c-8.839 0-16-7.161-16-16s7.161-16 16-16zM12.817 21.328c0.235 0.865 0.209 1.667-0.031 2.391l-0.084 0.24c-0.031 0.083-0.072 0.161-0.104 0.235-0.187 0.391-0.437 0.749-0.739 1.083-0.933 1.011-2.229 1.396-2.787 1.073-0.604-0.349-0.303-1.781 0.776-2.923 1.161-1.224 2.828-2.011 2.828-2.011v-0.004zM26.036 6.849c-0.724-2.844-5.437-3.776-9.896-2.193-2.656 0.943-5.525 2.423-7.593 4.355-2.459 2.296-2.849 4.296-2.687 5.129 0.572 2.948 4.609 4.881 6.271 6.308v0.011c-0.491 0.239-4.073 2.036-4.912 3.901-0.901 1.957 0.141 3.359 0.817 3.536 2.1 0.583 4.261-0.48 5.423-2.199 1.12-1.681 1.020-3.837 0.536-4.9 0.661-0.177 1.443-0.261 2.443-0.141 2.803 0.323 3.36 2.084 3.24 2.803s-0.699 1.14-0.901 1.26c-0.197 0.12-0.26 0.156-0.24 0.24 0.021 0.12 0.12 0.12 0.281 0.099 0.219-0.036 1.459-0.599 1.521-1.959 0.057-1.724-1.584-3.64-4.5-3.604-1.203 0.027-1.964 0.125-2.5 0.344-0.041-0.057-0.084-0.099-0.141-0.141-1.801-1.937-5.14-3.296-5-5.88 0.043-0.937 0.381-3.416 6.401-6.416 4.937-2.464 8.88-1.781 9.557-0.281 0.98 2.14-2.099 6.12-7.239 6.697-1.959 0.219-2.98-0.536-3.24-0.817-0.281-0.303-0.317-0.323-0.423-0.26-0.156 0.077-0.057 0.339 0 0.5 0.161 0.4 0.781 1.099 1.865 1.457 0.937 0.303 3.24 0.48 6-0.599 3.099-1.197 5.516-4.536 4.817-7.339z"/>
+                              </svg>
+                            <p>SCSS</p>
+                        </div>
+                        <div class="skill-git">
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31.396 14.573l-13.974-13.969c-0.802-0.807-2.109-0.807-2.917 0l-2.896 2.901 3.682 3.677c0.859-0.286 1.839-0.094 2.516 0.589 0.688 0.688 0.88 1.677 0.589 2.531l3.542 3.547c0.859-0.297 1.849-0.104 2.531 0.583 0.964 0.958 0.964 2.51 0 3.469-0.958 0.958-2.505 0.958-3.464 0-0.719-0.719-0.901-1.781-0.542-2.661l-3.318-3.302v8.703c0.234 0.115 0.458 0.271 0.651 0.464 0.953 0.964 0.953 2.51 0 3.469-0.958 0.958-2.516 0.958-3.479 0-0.958-0.958-0.958-2.505 0-3.469 0.245-0.24 0.516-0.417 0.807-0.536v-8.786c-0.286-0.125-0.563-0.297-0.802-0.536-0.724-0.724-0.901-1.786-0.526-2.677l-3.615-3.635-9.583 9.578c-0.797 0.802-0.797 2.109 0 2.917l13.974 13.969c0.807 0.807 2.109 0.807 2.917 0l13.906-13.906c0.807-0.802 0.807-2.109 0-2.917z"/>
+                              </svg>
+                            <p>Git</p>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer id="contact" class="contact">
+            <h1> Let's work together!</h1>
+            <h2> contact me at:</h2>
+            <div class="contact-container">
+                <a href="https://github.com/baratex" target="_blank" class="link-github link">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/brunobarato/" target="_blank" class="link-linkedin link">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+                <a href="https://www.instagram.com/bubusaur/" target="_blank" class="link-instagram link">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
